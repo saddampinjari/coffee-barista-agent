@@ -1,0 +1,51 @@
+[
+    {
+        "id": "espresso",
+        "name": "Classic Espresso",
+        "category": "Coffee",
+        "price": 3.50,
+        "description": "Rich and bold single shot of concentrated coffee.",
+        "allergens": []
+    },
+    {
+        "id": "latte",
+        "name": "Oat Milk Latte",
+        "category": "Coffee",
+        "price": 5.00,
+        "description": "Espresso with steamed oat milk and a light layer of foam.",
+        "allergens": [
+            "oats"
+        ]
+    },
+    {
+        "id": "almond_cappuccino",
+        "name": "Almond Milk Cappuccino",
+        "category": "Coffee",
+        "price": 5.25,
+        "description": "Equal parts espresso, steamed almond milk, and dense foam.",
+        "allergens": [
+            "tree nuts"
+        ]
+    },
+    {
+        "id": "matcha",
+        "name": "Iced Matcha Latte",
+        "category": "Tea",
+        "price": 5.50,
+        "description": "Japanese ceremonial matcha whisked with oat milk over ice.",
+        "allergens": [
+            "oats"
+        ]
+    },
+    {
+        "id": "croissant",
+        "name": "Butter Croissant",
+        "category": "Bakery",
+        "price": 4.00,
+        "description": "Flaky, buttery french pastry.",
+        "allergens": [
+            "dairy",
+            "gluten"
+        ]
+    }
+]
