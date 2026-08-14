@@ -200,6 +200,11 @@ custom_css = """
         background-color: #ECE5DD !important;
         border-radius: 12px;
     }
+
+    /* Chat input text color */
+    [data-testid="stChatInput"] textarea {
+        color: #FFFFFF !important;
+    }
 </style>
 """
 
