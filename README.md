@@ -23,10 +23,11 @@ coffee-barista-agent/
 ├── app.py           # Streamlit web application (UI, CSS theme, ADK Runner integration)
 ├── agent.py         # Google ADK Agent configuration & search_menu function tool
 ├── menu.json        # Coffee shop menu database (Items, categories, prices, allergens)
-├── .env             # Environment configuration (API key, Model selection)
+├── requirements.txt # Python package dependencies
 ├── .gitignore       # Git ignore rules for virtual env and secrets
 └── README.md        # Project documentation
 ```
+
 
 ---
 
@@ -45,10 +46,11 @@ source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
-Ensure you have the required packages installed:
+Install the required Python packages using `requirements.txt`:
 ```bash
-pip install streamlit python-dotenv google-genai google-adk
+pip install -r requirements.txt
 ```
+
 
 ### 4. Configure Environment Variables
 Create or edit the `.env` file in the root directory:
